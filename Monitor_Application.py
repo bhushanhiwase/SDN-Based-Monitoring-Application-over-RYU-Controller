@@ -127,27 +127,5 @@ class SimpleMonitor13(simple_switch_13.SimpleSwitch13):
                             p.max_speed))
             if p.port_no <= 100:
                 print('{}               {}       {}    {}'.format(ev.msg.datapath.id, p.port_no,p.hw_addr, p.curr_speed))
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            # print(ev.msg.datapath.id, "              ", p.port_no, "          ", p.hw_addr, "          ",
-                    # p.curr_speed, "       ", p.max_speed)
-            # break
-
-        #     # self.logger.info("%8", p.curr_speed)
-
-        # self.logger.debug('OFPPortDescStatsReply received: %s', ports)
-        # self.logger.info("%8", p.curr_speed)
-
+                
+                
